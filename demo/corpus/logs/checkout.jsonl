@@ -1,0 +1,19 @@
+{"timestamp":"2026-01-15T08:59:59Z","service":"checkout","level":"ERROR","message":"PAYMENT_DNS_NO_ADDRESS resolver returned no address for checkout's payment dependency."}
+{"timestamp":"2026-01-15T09:00:00Z","service":"checkout","level":"ERROR","message":"DB_POOL_EXHAUSTED connection pool has 24 active connections and zero idle connections."}
+{"timestamp":"2026-01-15T09:02:26Z","service":"checkout","level":"WARN","message":"HTTP_5XX_THRESHOLD checkout returned HTTP 503 while customer requests were waiting."}
+{"timestamp":"2026-01-15T09:06:00Z","service":"checkout","level":"ERROR","message":"DB_ACQUIRE_TIMEOUT request waited 3000 ms for a database connection before checkout returned HTTP 503."}
+{"timestamp":"2026-01-15T09:06:01Z","service":"checkout","level":"ERROR","message":"PAYMENT_GATEWAY_UNREACHABLE dependency probe timed out after address resolution failed."}
+{"timestamp":"2026-01-15T12:01:00Z","service":"checkout","level":"ERROR","message":"PAYMENT_DNS_NO_ADDRESS resolver returned no address for checkout's payment dependency."}
+{"timestamp":"2026-01-15T12:02:00Z","service":"checkout","level":"WARN","message":"HTTP_5XX_THRESHOLD requests to checkout started returning HTTP 503."}
+{"timestamp":"2026-01-15T12:03:00Z","service":"checkout","level":"ERROR","message":"PAYMENT_GATEWAY_UNREACHABLE checkout could not open a connection because address resolution failed."}
+{"timestamp":"2026-01-15T13:01:00Z","service":"checkout","level":"ERROR","message":"DB_POOL_EXHAUSTED connection pool has 24 active connections and zero idle connections."}
+{"timestamp":"2026-01-15T13:02:00Z","service":"checkout","level":"INFO","message":"DB_ACQUIRE_TIMEOUT_COUNTER_RESET monitoring restarted its interval counters."}
+{"timestamp":"2026-01-15T13:02:30Z","service":"checkout","level":"INFO","event":"MONITORING_CONFIGURATION_NOTE","message":"The alert configuration includes the name DB_ACQUIRE_TIMEOUT."}
+{"timestamp":"2026-01-15T13:03:00Z","service":"checkout","level":"WARN","message":"REQUEST_SLOW request tracing captured a slow completion."}
+{"timestamp":"2026-01-15T14:01:00Z","service":"checkout","level":"ERROR","message":"DB_POOL_EXHAUSTED connection pool has 24 active connections and zero idle connections."}
+{"timestamp":"2026-01-15T14:02:00Z","service":"checkout","level":"ERROR","message":"DB_ACQUIRE_TIMEOUT request timed out waiting for a database connection."}
+{"timestamp":"2026-01-15T14:03:00Z","service":"checkout","level":"ERROR","message":"PAYMENT_DNS_NO_ADDRESS resolver returned no address for checkout's payment dependency."}
+{"timestamp":"2026-01-15T14:04:00Z","service":"checkout","level":"ERROR","message":"PAYMENT_GATEWAY_UNREACHABLE checkout could not reach the payment dependency."}
+{"timestamp":"2026-01-15T15:01:00Z","service":"checkout","level":"WARN","message":"JWKS_KID_UNKNOWN token verification for checkout observed a signing-key identifier absent from cache."}
+{"timestamp":"2026-01-15T15:02:00Z","service":"checkout","level":"WARN","message":"JWKS_REFRESH_FAILED checkout could not refresh its signing-key cache."}
+{"timestamp":"2026-01-15T13:04:00Z","service":"checkout","level":"INFO","message":"No DB_ACQUIRE_TIMEOUT events were observed in that reporting interval."}

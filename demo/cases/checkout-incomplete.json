@@ -1,0 +1,12 @@
+{
+  "id": "checkout-incomplete",
+  "service": "checkout",
+  "symptom": "Checkout showed slow requests and a busy database pool.",
+  "start": "2026-01-15T13:00:00Z",
+  "end": "2026-01-15T13:05:00Z",
+  "expected": {
+    "diagnosis": null,
+    "signals": [],
+    "observed_signals": ["DB_POOL_EXHAUSTED"]
+  }
+}

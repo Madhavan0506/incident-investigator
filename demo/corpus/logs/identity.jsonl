@@ -1,0 +1,7 @@
+{"timestamp":"2026-01-15T09:02:00Z","service":"identity","level":"ERROR","message":"PAYMENT_DNS_NO_ADDRESS synthetic health check for a secondary dependency did not resolve an address."}
+{"timestamp":"2026-01-15T09:03:00Z","service":"identity","level":"ERROR","message":"PAYMENT_GATEWAY_UNREACHABLE synthetic health check did not reach the dependency."}
+{"timestamp":"2026-01-15T10:00:40Z","service":"identity","level":"WARN","message":"AUTH_REJECT_SPIKE the verifier returned additional HTTP 401 responses."}
+{"timestamp":"2026-01-15T10:01:00Z","service":"identity","level":"ERROR","message":"JWKS_KID_UNKNOWN validly formatted tokens presented key identifiers missing from the cached signing-key set."}
+{"timestamp":"2026-01-15T11:03:00+01:00","service":"identity","level":"ERROR","message":"JWKS_REFRESH_FAILED the signing-key set refresh returned a temporary upstream error."}
+{"timestamp":"2026-01-15T14:59:59Z","service":"identity","level":"ERROR","message":"JWKS_KID_UNKNOWN token verification observed a signing-key identifier absent from cache."}
+{"timestamp":"2026-01-15T15:05:01Z","service":"identity","level":"ERROR","message":"JWKS_REFRESH_FAILED identity could not refresh its signing-key cache."}

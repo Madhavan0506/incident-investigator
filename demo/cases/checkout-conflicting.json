@@ -1,0 +1,15 @@
+{
+  "id": "checkout-conflicting",
+  "service": "checkout",
+  "symptom": "Checkout returned HTTP 503 across multiple affected customer requests.",
+  "start": "2026-01-15T14:00:00Z",
+  "end": "2026-01-15T14:05:00Z",
+  "expected": {
+    "diagnosis": null,
+    "signals": [],
+    "competing_diagnoses": [
+      "Checkout database connection pool saturation",
+      "Checkout payment dependency DNS resolution failure"
+    ]
+  }
+}

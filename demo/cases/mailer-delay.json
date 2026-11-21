@@ -1,0 +1,11 @@
+{
+  "id": "mailer-delay",
+  "service": "mailer",
+  "symptom": "The mail delivery queue grew while recipients reported delayed messages.",
+  "start": "2026-01-15T11:00:00Z",
+  "end": "2026-01-15T11:09:00Z",
+  "expected": {
+    "diagnosis": "Mail relay throttling with a delivery retry backlog",
+    "signals": ["SMTP_RATE_LIMITED", "DELIVERY_RETRY_BACKLOG"]
+  }
+}

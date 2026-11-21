@@ -1,0 +1,11 @@
+{
+  "id": "identity-keys",
+  "service": "identity",
+  "symptom": "Identity began returning HTTP 401 for tokens carrying newer signing-key identifiers.",
+  "start": "2026-01-15T10:00:00Z",
+  "end": "2026-01-15T10:08:00Z",
+  "expected": {
+    "diagnosis": "Identity signing-key cache refresh failure",
+    "signals": ["JWKS_KID_UNKNOWN", "JWKS_REFRESH_FAILED"]
+  }
+}

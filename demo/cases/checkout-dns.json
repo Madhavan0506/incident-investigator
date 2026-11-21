@@ -1,0 +1,11 @@
+{
+  "id": "checkout-dns",
+  "service": "checkout",
+  "symptom": "Checkout returned HTTP 503 and reported difficulty resolving its payment dependency.",
+  "start": "2026-01-15T12:00:00Z",
+  "end": "2026-01-15T12:05:00Z",
+  "expected": {
+    "diagnosis": "Checkout payment dependency DNS resolution failure",
+    "signals": ["PAYMENT_DNS_NO_ADDRESS", "PAYMENT_GATEWAY_UNREACHABLE"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "checkout-db",
+  "service": "checkout",
+  "symptom": "Checkout requests timed out or returned HTTP 503 while waiting for database connections.",
+  "start": "2026-01-15T09:00:00Z",
+  "end": "2026-01-15T09:06:00Z",
+  "expected": {
+    "diagnosis": "Checkout database connection pool saturation",
+    "signals": ["DB_POOL_EXHAUSTED", "DB_ACQUIRE_TIMEOUT"]
+  }
+}
